@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: $primary-color;
+  background-color: $light-color;
   font-family: $font-stack;
   line-height: 1;
 }
@@ -26,6 +26,9 @@ a {
 }
 
 .hero {
+  @include set-bg($primary-color);
+  height: 750px;
+
   nav{
       color: $tertiary-color;
       display: flex;

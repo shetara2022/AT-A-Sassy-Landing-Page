@@ -39,7 +39,7 @@
 }
 
 body {
-  background-color: #000814;
+  background-color: #FFC300;
   font-family: Trebuchet MS, Arial, sans-serif;
   line-height: 1;
 }
@@ -54,6 +54,11 @@ a {
   text-decoration: none;
 }
 
+.hero {
+  background-color: #000814;
+  color: white;
+  height: 750px;
+}
 .hero nav {
   color: #fff;
   display: flex;
