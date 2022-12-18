@@ -39,7 +39,7 @@
 }
 
 body {
-  background-color: #FFC300;
+  background-color: #000814;
   font-family: Trebuchet MS, Arial, sans-serif;
   line-height: 1;
 }
@@ -50,6 +50,23 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.hero nav {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.hero nav li {
+  padding: 1em;
+}
+.hero nav a {
+  color: #fff;
 }
 
 .m-1 {
